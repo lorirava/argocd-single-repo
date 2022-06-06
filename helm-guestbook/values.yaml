@@ -8,10 +8,6 @@ image1:
   repository: europe-west1-docker.pkg.dev/injenia-artifact/in-docker/argocd/app1-test
   tag: 1.1
   pullPolicy: IfNotPresent
-image2:
-  repository: europe-west1-docker.pkg.dev/injenia-artifact/in-docker/argocd/app2-test
-  tag: 2.1
-  pullPolicy: IfNotPresent
 
 service:
   type: ClusterIP
